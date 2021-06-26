@@ -1,0 +1,163 @@
+body{
+    background: rgb(34,193,195);
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.container{
+    position: relative;
+   width: 350px;
+   z-index: 99;
+   height: 450px;
+   /* background-color: rebeccapurple; */
+   left: 35%;
+   border-radius: 30px;
+   background: rgb(39,198,200);
+   background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);   margin-top: 100px;
+}
+
+
+.foot{
+    position: absolute;
+    bottom: 0%;
+    width: auto;
+    margin: 0 auto;
+    padding: 2px;
+
+
+}
+
+.head{
+    display: flex;
+    border-bottom: 1px solid black;
+    background: rgb(39,198,200);
+    padding: 5px;
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgb(31, 21, 0) 100%);   margin-top: 100px;
+ }
+
+.head  img {
+border-radius: 50%;
+
+}
+
+.head i{
+font-size: 20px;
+margin-top: 17px;    
+padding: 5px;
+}
+
+
+.chat{
+height: 300px ;
+    overflow: auto;
+}
+
+
+
+.foot input{
+    margin-left: 5px;
+    width: 240px;
+    padding: 18px;
+    border-radius: 20px;
+    border: none;
+
+
+    
+}
+
+.foot button{
+border-radius: 18px;
+    width: 60px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.paraqraf{
+    padding: 5px;
+    background-color: chocolate;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width:700px) {
+    .container{
+    position: relative;
+   width: 300px;
+   z-index: 99;
+   height: 450px;
+   /* background-color: rebeccapurple; */
+   left: 35%;
+   border-radius: 30px;
+   background: rgb(39,198,200);
+   background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);   margin-top: 100px;
+}
+
+
+.foot{
+    position: absolute;
+    bottom: 0%;
+    width: auto;
+    margin: 0 auto;
+    padding: 2px;
+
+
+}
+
+.head{
+    display: flex;
+    border-bottom: 1px solid black;
+    background: rgb(39,198,200);
+    padding: 5px;
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgb(31, 21, 0) 100%);   margin-top: 100px;
+ }
+
+.head  img {
+border-radius: 50%;
+
+}
+
+.head i{
+font-size: 20px;
+margin-top: 17px;    
+padding: 5px;
+}
+
+
+.chat{
+height: 300px ;
+    overflow: auto;
+}
+
+
+
+.foot input{
+    margin-left: 5px;
+    width: 190px;
+    padding: 18px;
+    border-radius: 20px;
+    border: none;
+
+
+    
+}
+
+.foot button{
+border-radius: 18px;
+    width: 60px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.paraqraf{
+    padding: 5px;
+    background-color: chocolate;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 10px;
+}
+}
